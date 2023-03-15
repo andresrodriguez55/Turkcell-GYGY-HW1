@@ -16,7 +16,8 @@ Bu yazılım için backend kodlarını JAVA ile geliştirmeyi planlıyoruz.  Yen
 
 # 2. Çözüm
 # 2.1. Domain Model
-<b>Attributeler sonradan eklenilmiştir, domain modelde sadece varlıklara odaklanılmıştır.</b>
+- <b>Attributeler sonradan eklenilmiştir, domain modelde sadece varlıklara odaklanılmıştır.</b>
+
 ![plot](./domainModel1.jpg)
 ## 2.2. Açıklama
 - Gereksinimlere göre sınıflar unidirectional olacak şekilde ayarlandı, bunun sebebi toString metotlarında recursion hataları almamak için olmuştur. Örneğin bir sale bir playere ulaşabilir ama bir player bir saleye ulaşamaz.
