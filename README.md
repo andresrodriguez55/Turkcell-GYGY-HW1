@@ -18,7 +18,7 @@ Bu yazılım için backend kodlarını JAVA ile geliştirmeyi planlıyoruz.  Yen
 # 2.1. Domain Model
 - <b>Attributeler sonradan eklenilmiştir, domain modelde sadece varlıklara odaklanılmıştır.</b>
 
-![plot](./domainModel2.png)
+![plot](./domainModel2.jpg)
 ## 2.2. Açıklama
 - Gereksinimlere göre sınıflar unidirectional olacak şekilde ayarlandı, bunun sebebi toString metotlarında recursion hataları almamak için olmuştur. Örneğin bir sale bir playere ulaşabilir ama bir player bir saleye ulaşamaz.
 - N-Tier mimarisine giriş amaçlı data katmanında yer alan bazı sınıflar yazılmıştır, bunlar entityler ve generic repositoryler olmuştur. 
