@@ -1,3 +1,5 @@
 # Domain Model
 
-![plot](./domainModel.jpg)
+Attributeler sonradan eklenilmiştir, domain modelde sadece varlıklara odaklanılmıştır.
+
+![plot](./domainModel1.jpg)
