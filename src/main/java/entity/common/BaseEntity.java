@@ -1,6 +1,6 @@
 package entity.common;
 
-public class BaseEntity<T> implements IEntity
+public class BaseEntity<T>
 {
     private T id;
 

@@ -16,7 +16,7 @@ public class SalesSimulation
     {
         List<Sale> database = new ArrayList<>();
 
-        Player player1 = new Player("9876543210", "Andres",
+        Player player1 = new Player(1, "9876543210", "Andres",
                 "Calderon", new Date(), "andres99",
                 17);
 
