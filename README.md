@@ -1,3 +1,3 @@
 # Domain Model
 
-![plot](./domainModel.png)
+![plot](./domainModel.jpg)
