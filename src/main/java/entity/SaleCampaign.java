@@ -2,7 +2,7 @@ package entity;
 
 public class SaleCampaign extends Sale
 {
-    Campaign campaign;
+    private Campaign campaign;
 
     public SaleCampaign(Integer id, Player isFor, double amount, Campaign campaign)
     {
