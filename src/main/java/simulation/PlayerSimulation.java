@@ -24,7 +24,7 @@ public class PlayerSimulation
 
         //Validate identity number
         CheckIdentityService checkIdentityService = new CheckIdentityService(repository.getById(1));
-        System.out.println("Does service contains identity number?: " + checkIdentityService.validate());
+        System.out.println("Does the service contain the player identity number of id 1?: " + checkIdentityService.validate());
 
         //Update
         player1.setFirstName("Arturo");
